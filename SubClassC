@@ -1,0 +1,16 @@
+public class ClassC extends ClassA{
+
+
+	////implements an abstract method
+	@Override
+	public void method1() {
+		System.out.println("Class C method 1");
+		
+	}
+	
+	public void method3() {
+		System.out.println("Class C method 3 (class C only)");
+	}
+
+
+}
